@@ -1,0 +1,78 @@
+import React from "react";
+import profile from "../assets/profile.png";
+import { FaEnvelope, FaDownload } from "react-icons/fa";
+
+export default function Hero() {
+  return (
+    <section
+      id="home"
+      className="min-h-screen flex items-center bg-gray-900 text-white px-6 md:px-24"
+    >
+      <div className="max-w-6xl mx-auto w-full">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+
+          {/* LEFT – CONTENT */}
+          <div className="md:w-1/2 text-center md:text-left">
+
+            <p className="text-blue-400 font-medium mb-3 uppercase tracking-wide">
+              Full Stack Developer
+            </p>
+
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+              Hi, I’m{" "}
+              <span className="text-blue-400">
+                Bhawani Prabhasha
+              </span>
+            </h1>
+
+            <p className="text-gray-300 text-lg mb-8 leading-relaxed">
+              I am a passionate Full Stack Developer skilled in building scalable web applications using modern technologies. I focus on creating efficient, user-friendly, and high-performance solutions while continuously learning and adapting to new technologies.
+            </p>
+
+            {/* CTA BUTTONS */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+
+              {/* Contact */}
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center gap-2
+                bg-blue-600 hover:bg-blue-500 transition-colors
+                px-6 py-3 rounded-lg font-medium"
+              >
+                <FaEnvelope />
+                Contact Me
+              </a>
+
+              {/* Download CV */}
+              <a
+                href="/Bhawani_Prabhasha_SE_Intern%20(2).pdf"
+                download
+                className="inline-flex items-center justify-center gap-2
+                border border-blue-500 text-blue-400
+                hover:bg-blue-500 hover:text-white transition-colors
+                px-6 py-3 rounded-lg font-medium"
+              >
+                <FaDownload />
+                Download CV
+              </a>
+
+            </div>
+          </div>
+
+          {/* RIGHT – IMAGE */}
+          <div className="md:w-1/2 flex justify-center">
+            <img
+              src={profile}
+              alt="Bhawani Prabhasha"
+              className="w-72 h-72 md:w-80 md:h-80
+              object-cover object-[center_top] scale-125
+              rounded-full border-4 border-blue-500 shadow-xl
+              hover:scale-130 transition-transform duration-300"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+}
