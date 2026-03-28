@@ -12,7 +12,7 @@ import Certifications from "./components/Certifications";
 
 function App() {
   return (
-    <div className="bg-gray-900 text-white min-h-screen pl-20">
+    <div className="bg-gray-900 text-white min-h-screen overflow-x-hidden px-4 sm:px-6 md:px-12">
       
       {/* Fixed left social sidebar */}
       <SocialSidebar />
