@@ -61,10 +61,10 @@ export default function Hero() {
             <img
               src={profile}
               alt="Bhawani Prabhasha"
-              className="w-72 h-72 md:w-80 md:h-80
-              object-cover object-[center_top] scale-125
+              className="w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80
+              object-cover object-[center_top]
               rounded-full border-4 border-blue-500 shadow-xl
-              hover:scale-[1.35] transition-transform duration-300"
+              transition-transform duration-300 hover:scale-105"
             />
           </div>
 
