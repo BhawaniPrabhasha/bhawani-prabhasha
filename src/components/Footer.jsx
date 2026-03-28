@@ -3,7 +3,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
-  FaWhatsapp,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -18,7 +17,7 @@ export default function Footer() {
 
         {/* ROLE */}
         <p className="text-sm mb-6">
-          Full Stack Developer • Web Applications • Cloud Enthusiast
+          Web Applications • Cloud Enthusiast
         </p>
 
         {/* SOCIAL ICONS */}
@@ -37,11 +36,6 @@ export default function Footer() {
           <SocialIcon
             icon={<FaEnvelope />}
             link="mailto:bhawaniprabhasha001@gmail.com"
-          />
-
-          <SocialIcon
-            icon={<FaWhatsapp />}
-            link="https://wa.me/94741386207"
           />
 
         </div>
