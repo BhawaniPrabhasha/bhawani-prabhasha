@@ -1,9 +1,7 @@
 import React from "react";
 import {
   FaEnvelope,
-  FaPhoneAlt,
   FaLinkedin,
-  FaWhatsapp,
 } from "react-icons/fa";
 
 export default function Contact() {
@@ -34,28 +32,12 @@ export default function Contact() {
             link="mailto:bhawaniprabhasha001@gmail.com"
           />
 
-          {/* Phone */}
-          <ContactCard
-            icon={<FaPhoneAlt />}
-            title="Phone"
-            value="+94 71 947 3716"
-            link="tel:+94719473716"
-          />
-
           {/* LinkedIn */}
           <ContactCard
             icon={<FaLinkedin />}
             title="LinkedIn"
             value="linkedin.com/in/bhawani-prabhasha"
             link="https://www.linkedin.com/in/bhawani-prabhasha/"
-          />
-
-          {/* WhatsApp */}
-          <ContactCard
-            icon={<FaWhatsapp />}
-            title="WhatsApp"
-            value="Chat on WhatsApp"
-            link="https://wa.me/94741386207"
           />
 
         </div>
