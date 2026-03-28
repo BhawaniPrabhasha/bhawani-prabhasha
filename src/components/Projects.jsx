@@ -12,8 +12,8 @@ export default function Projects() {
       description:
         "WorkSure is a full-stack service marketplace that connects users with skilled workers across the country. It allows users to search, book, and manage services such as plumbing, electrical, and home maintenance, while providing workers with a platform to register, showcase their skills, and receive job opportunities.",
       github: "https://github.com/HasalKenula/WorkSure-frontend.git",
-      medium: "https://github.com/BhawaniPrabhasha/WorkSure-automation.git",
-      linkedin: "https://www.linkedin.com/in/yourusername/",
+      github: "https://github.com/HasalKenula/WorkSure-backend.git",
+      
     },
     {
       id: 2,
@@ -22,8 +22,7 @@ export default function Projects() {
       description:
         "A web-based ticketing system developed to manage event bookings and reservations. Users can browse events such as music shows, movies, concerts, and festivals, search for events, and book tickets easily through a user-friendly interface.",
       github: "https://github.com/AdithyaShenal/Ticketing-Website.git",
-      medium: "#",
-      linkedin: "https://www.linkedin.com/in/yourusername/",
+      
     },
     {
       id: 3,
@@ -32,8 +31,7 @@ export default function Projects() {
       description:
         "A desktop-based blood bank management system developed to manage donor records, patient details, blood stock levels, and transfer operations efficiently. The system helps streamline blood inventory tracking and ensures proper management of donations and requests.",
       github: "https://github.com/Keshanibalasuriya/Blood-Bank-Management-System.git",
-      medium: "#",
-      linkedin: "https://www.linkedin.com/in/yourusername/",
+      
     },
   ];
 
