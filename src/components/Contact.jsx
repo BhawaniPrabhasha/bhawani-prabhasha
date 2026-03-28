@@ -16,7 +16,7 @@ export default function Contact() {
         "service_fe1ndto",
         "template_dgqgj7o",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "bLkN9zKFT1MfF38wf"
       )
       .then(
         () => {
