@@ -14,19 +14,21 @@ export default function Hero() {
           {/* LEFT – CONTENT */}
           <div className="md:w-1/2 text-center md:text-left">
 
+            {/* ROLE */}
             <p className="text-blue-400 font-medium mb-3 uppercase tracking-wide">
               Full Stack Developer
             </p>
 
+            {/* NAME (UPDATED) */}
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
-              Hi, I’m{" "}
               <span className="text-blue-400">
                 Bhawani Prabhasha
               </span>
             </h1>
 
+            {/* LINKEDIN DESCRIPTION (UPDATED) */}
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              I am a passionate Full Stack Developer skilled in building scalable web applications using modern technologies. I focus on creating efficient, user-friendly, and high-performance solutions while continuously learning and adapting to new technologies.
+              Computer Science Undergraduate | University of Ruhuna | CIMA Operational Level (FLP) Candidate
             </p>
 
             {/* CTA BUTTONS */}
@@ -43,9 +45,9 @@ export default function Hero() {
                 Contact Me
               </a>
 
-              {/* Download CV */}
+              {/* Download CV (FIXED FOR GITHUB PAGES) */}
               <a
-                href={`${import.meta.env.BASE_URL}resume.pdf`}
+                href={`${import.meta.env.BASE_URL}Bhawani_Prabhasha_SE_Intern (2).pdf`}
                 download
                 className="inline-flex items-center justify-center gap-2
                 border border-blue-500 text-blue-400
@@ -67,7 +69,7 @@ export default function Hero() {
               className="w-72 h-72 md:w-80 md:h-80
               object-cover object-[center_top] scale-125
               rounded-full border-4 border-blue-500 shadow-xl
-              hover:scale-130 transition-transform duration-300"
+              hover:scale-[1.35] transition-transform duration-300"
             />
           </div>
 
