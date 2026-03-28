@@ -14,24 +14,19 @@ export default function Hero() {
           {/* LEFT – CONTENT */}
           <div className="md:w-1/2 text-center md:text-left">
 
-            {/* ROLE */}
-            <p className="text-blue-400 font-medium mb-3 uppercase tracking-wide">
-              Full Stack Developer
-            </p>
-
-            {/* NAME (UPDATED) */}
+            {/* NAME ONLY */}
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
               <span className="text-blue-400">
                 Bhawani Prabhasha
               </span>
             </h1>
 
-            {/* LINKEDIN DESCRIPTION (UPDATED) */}
+            {/* LINKEDIN DESCRIPTION */}
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
               Computer Science Undergraduate | University of Ruhuna | CIMA Operational Level (FLP) Candidate
             </p>
 
-            {/* CTA BUTTONS */}
+            {/* BUTTONS */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
 
               {/* Contact */}
@@ -45,7 +40,7 @@ export default function Hero() {
                 Contact Me
               </a>
 
-              {/* Download CV (FIXED FOR GITHUB PAGES) */}
+              {/* Download CV */}
               <a
                 href={`${import.meta.env.BASE_URL}Bhawani_Prabhasha_SE_Intern (2).pdf`}
                 download
