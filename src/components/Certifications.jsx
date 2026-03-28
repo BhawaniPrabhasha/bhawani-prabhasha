@@ -118,7 +118,7 @@ export default function Certifications() {
                     <img
                       src={cert.image}
                       alt={cert.title}
-                      className="w-full h-56 object-contain"
+                      className="w-full h-auto max-h-64 object-contain"
                     />
                   </div>
 
