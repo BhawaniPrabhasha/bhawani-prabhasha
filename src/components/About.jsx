@@ -25,7 +25,7 @@ export default function About() {
 
           {/* Download CV Button */}
           <a
-            href="/Bhawani_Prabhasha_SE_Intern%20(2).pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download
             className="inline-block bg-blue-600 hover:bg-blue-500 transition-colors px-6 py-3 rounded-lg font-medium"
           >

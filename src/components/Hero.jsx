@@ -45,7 +45,7 @@ export default function Hero() {
 
               {/* Download CV */}
               <a
-                href="/Bhawani_Prabhasha_SE_Intern%20(2).pdf"
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
                 download
                 className="inline-flex items-center justify-center gap-2
                 border border-blue-500 text-blue-400
