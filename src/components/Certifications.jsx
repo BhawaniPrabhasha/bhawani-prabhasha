@@ -16,7 +16,7 @@ function NextArrow({ onClick }) {
   return (
     <button
       onClick={onClick}
-      className="absolute -right-4 top-1/2 -translate-y-1/2 z-10 bg-gray-900 text-blue-400 p-3 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition hidden md:flex items-center justify-center"
+      className="absolute -right-4 top-1/2 -translate-y-1/2 z-10 bg-gray-900 text-blue-400 p-3 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition hidden lg:flex items-center justify-center"
       type="button"
     >
       <FaChevronRight />
@@ -28,7 +28,7 @@ function PrevArrow({ onClick }) {
   return (
     <button
       onClick={onClick}
-      className="absolute -left-4 top-1/2 -translate-y-1/2 z-10 bg-gray-900 text-blue-400 p-3 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition hidden md:flex items-center justify-center"
+      className="absolute -left-4 top-1/2 -translate-y-1/2 z-10 bg-gray-900 text-blue-400 p-3 rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition hidden lg:flex items-center justify-center"
       type="button"
     >
       <FaChevronLeft />
@@ -81,7 +81,7 @@ export default function Certifications() {
     prevArrow: <PrevArrow />,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -89,7 +89,7 @@ export default function Certifications() {
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 900,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -102,7 +102,7 @@ export default function Certifications() {
   return (
     <section
       id="certifications"
-      className="bg-gray-800 text-white px-6 md:px-20 py-20"
+      className="bg-gray-800 text-white px-4 sm:px-6 md:px-20 py-20 overflow-hidden"
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12 text-blue-400">
@@ -112,11 +112,11 @@ export default function Certifications() {
         <div className="relative">
           <Slider {...settings}>
             {certificates.map((cert, index) => (
-              <div key={index} className="px-2 sm:px-3">
+              <div key={index} className="px-2">
                 <div
                   className="bg-gray-900 rounded-xl overflow-hidden shadow-lg
                   hover:scale-105 transition-transform duration-300
-                  hover:shadow-blue-500/30"
+                  hover:shadow-blue-500/30 w-full"
                 >
                   <div className="bg-white p-2">
                     <img
